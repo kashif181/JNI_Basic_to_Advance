@@ -10,10 +10,10 @@ extern "C" {
 /*
  * Class:     com_geekscircle_jni_JNIBASIC
  * Method:    helloWorld
- * Signature: ()V
+ * Signature: (II)V
  */
 JNIEXPORT void JNICALL Java_com_geekscircle_jni_JNIBASIC_helloWorld
-  (JNIEnv *, jclass);
+  (JNIEnv *, jclass, jint, jint);
 
 #ifdef __cplusplus
 }
